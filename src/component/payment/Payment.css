@@ -1,0 +1,72 @@
+.payment{
+    /* display: flex; */
+    justify-content: center;
+    position: relative;
+    padding-top: 70px;
+    max-height: 100%;
+    padding-bottom: 20px;
+    background-color: rgb(204, 208, 211);
+
+}
+
+.payment__section{
+    display: flex;
+    border-bottom: 1px solid white;
+    margin: 40px 10px;
+    /* border-top: 1px solid gray; */
+}
+.payment__title{
+    flex: 0.3;
+}
+.payment__address , .payment__items,.payment__details{
+    flex: 0.7;
+    margin-right: 50px;
+}
+.payment__items{
+    margin-right: 50px;
+}
+.payment__items table{
+    background-color: white;
+    margin-right: 50px;
+}
+form .StripeElement{
+    background-color: white;
+    padding: 10px 20px;
+}
+.payment__priceContainer{
+    display: flex;
+    /* justify-content: left; */
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    float: center;
+}
+.payment__priceContainer > h3 > span{
+    color: blue;
+    font-size: 22px;
+    font-weight: 800;
+}
+.payment__priceContainer > h3 {
+    margin-top: 20px;
+   
+}
+.payment__priceContainer button{
+    background-color: rgb(211, 59, 59);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.payment__priceContainer button:hover{
+    background-color: rgb(211, 59, 59);
+    border: none;
+    border-radius: 10px;
+    
+}
+button:focus{
+    outline: 0;
+}

@@ -1,0 +1,66 @@
+.checkout{
+    background-color: rgb(189, 196, 196);
+    position: relative;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* visibility: hidden; */
+    padding-top: 70px;
+    
+}
+.checkout .checkoutItem{
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.subtotal{
+    margin: 10px 30px;
+    float: right;
+    
+}
+.subtotal p{
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.subtotal p span{
+    color: blue;
+    font-size: larger;
+}
+.subtotal button{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    font-family: "Archivo Narrow", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #fff;
+    background-color: #2AC37D;
+    line-height: 25px;
+    border: none;
+    border-radius: 60px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.subtotal button:focus{
+    outline: 0;
+
+}
+.subtotal button:hover{
+
+}
+.subtotal button:before{
+    content: '';
+    position: absolute;
+    /* /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% + 12px);
+    height: calc(100% + 12px);
+    border-radius: 60px;
+    background-color: rgba(102, 196, 59, 0.07);
+    color:red;
+    transition: all 0.4s ease;
+    
+}
